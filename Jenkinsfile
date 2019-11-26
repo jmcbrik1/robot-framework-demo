@@ -11,8 +11,7 @@ pipeline
                 // Generated via Jenkins snippet generator
                 checkout([$class: 'GitSCM', branches: [[name: '**']],
                     doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'CleanBeforeCheckout']],
-                    submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: 'ObiGitHub', url: 'git@github.com:O3ObijuanKenobi/RobotFrameworkDemo.git']]])
+                    userRemoteConfigs: [[credentialsId: 'GlobalGitHubSSHKey', url: 'git@github.jci.com:jmcbrik1/RobotFrameworkDemo.git']]])
             }
 
         }
