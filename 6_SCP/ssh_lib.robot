@@ -5,7 +5,7 @@ Library     SSHLibrary  WITH NAME  SSH
 ${USERNAME}               root
 ${PASSWORD}               root
 ${HOST}                   172.16.230.107
-${PROMPT}                 $
+${PROMPT}                 #
 
 *** Keywords ***
 Login As Valid User
