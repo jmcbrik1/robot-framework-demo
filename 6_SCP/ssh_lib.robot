@@ -2,9 +2,9 @@
 Library     SSHLibrary  WITH NAME  SSH
 
 *** Variables ***
-${USERNAME}               pi
-${PASSWORD}               42
-${HOST}                   192.168.1.134
+${USERNAME}               root
+${PASSWORD}               root
+${HOST}                   172.16.230.107
 ${PROMPT}                 $
 
 *** Keywords ***

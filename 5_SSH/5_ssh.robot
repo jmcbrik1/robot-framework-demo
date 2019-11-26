@@ -12,9 +12,9 @@ Suite Setup            Open Connection And Log In
 Suite Teardown         Close All Connections
 
 *** Variables ***
-${HOST}                192.168.1.134
-${USERNAME}            pi
-${PASSWORD}            42
+${HOST}                172.16.230.107
+${USERNAME}            root
+${PASSWORD}            root
 
 *** Test Cases ***
 Execute Command And Verify Output
