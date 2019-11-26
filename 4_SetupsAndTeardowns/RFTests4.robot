@@ -29,7 +29,6 @@ Test Timeout  5 Seconds
 
 *** Keywords ***
 Keyword With Local Setup And Teardown
-    [Setup]  Log  Keyword Setup  WARN
     Sleep  2
     [Teardown]  Log  Keyword Teardown  WARN
 
